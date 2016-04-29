@@ -1,46 +1,278 @@
 <!doctype html>
 <html>
     <head>
-        <title>Under Construction</title>
-        <meta name="robots" content="noindex, nofollow">
-        <style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>APEFOOD - GitHub Portfolio</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+		
+		<!-- Font Awesome --> 
+		<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> 
+		
+		<!-- Template stylesheet -->
+		<link href="assets/css/main.css" rel="stylesheet">
+		
+		<!-- JavaScript --> 
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/Chart.min.js"></script> 
+	</head> 
+	
+	<body data-spy="scroll" data-offset="0" data-target="#theMenu"> 
+		
+		<!-- Menu --> 
+		<nav class="menu" id="theMenu"> 
+			<div class="menu-wrap">
+				<h1 class="logo"><a href="index.html#home">APEFOOD</a></h1>
+				<i class="icon-remove menu-close"></i>
+				<a href="#home" class="smoothScroll">Home</a>
+				<a href="#skills" class="smoothScroll">Skills</a>
+				<a href="#code" class="smoothScroll">Code</a>
+				<a href="#about" class="smoothScroll">About Me</a> 
+				<a href="#contact" class="smoothScroll">Contact Info</a>
+				<a href="#"><i class="icon-facebook"></i></a>
+				<a href="https://twitter.com/APEFOOD"><i class="icon-twitter"></i></a>
+				<a href="#"><i class="icon-dribbble"></i></a>
+				<a href="https://kabelonkakala20@gmail.com"><i class="icon-envelope"></i></a>
+			</div> 
+			
+			<!-- Menu button --> 
+			<div id="menuToggle"><i class="icon-reorder"></i></div>
+		</nav>
+		
+		<!-- ========== HEADER SECTION ========== -->
+		<section id="home" name="home"></section>
+		<div id="headerwrap">
+			<div class="container">
+				<br>
+				<h1>APEFOOD</h1>
+				<h2>GitHub Portfolio</h2>
+				<div class="row">
+					<br>
+					<br>
+					<br>
+					<div class="col-lg-6 col-lg-offset-3">
+					</div>
+				</div>
+			</div><!-- /container -->
+		</div><!-- /headerwrap --> 
+		
+		<!-- ========== WHITE SECTION ========== -->
+		<div id="w">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+					<h3>WELCOME TO MY ONLINE RESUME. IF YOU COULD USE SOMEONE WITH MY WEB DEVELOPMENT 
+						SKILLS SET, THEN PLEASE <a href="index#contact">CONTACT</a> ME.
+					</h3>
+					</div>
+				</div>
+			</div><!-- /container -->
+		</div><!-- /w -->
+		
+		<!-- ========== SERVICES - GREY SECTION ========== -->
+	<section id="skills" name="services"></section>
+		<div id="g">
+			<div class="container">
+				<div class="row">
+					<h3>FRAMEWORKS</h3>
+					<br>
+					<br>
+					<div class="col-lg-3">
+						<i class="fa fa-rocket fa-5x"></i>
+						<h4>Laravel 5</h4>
+						<p>Laravel has quickly grown to become one of the most popular PHP frameworks. It's expressive syntax and excellent documentation make it a joy to get a fully functioning web application up and running. It is definitely my framework of choice at the moment.</p>
+					</div>
+					<div class="col-lg-3">
+						<i class="fa fa-cogs fa-5x"></i>
+						<h4>Symfony 3.x</h4>
+						<p>You would be hard-pressed to find a web application written in PHP that does not use at least one Symfony component. That's because Symfony is made up of tools that let you develop and build more robust applications. Even other frameworks like Laravel rely on Symfony for some of their core functionality. That's how good it is.</p>
+					</div>
+					<div class="col-lg-3">
+						<i class="fa fa-wordpress fa-5x"></i>
+						<h4>WordPress</h4>
+						<p>WordPress is the world's most popular content management system. The main reasons behind that are it's flexibility and simple user interface. If you have the patience for it, you can do anything with WordPress.</p>
+					</div>
+					<div class="col-lg-3">
+						<i class="fa fa-magic fa-5x"></i>
+						<h4>JavaScript/jQuery</h4>
+						<p>JavaScript is magic, and jQuery takes the magic to a whole new level with its DOM manipulation functionality.</p>
+					</div>
+				</div>
+			</div><!-- /container -->
+		</div><!-- /g -->
+				
+		<!-- ========== CHARTS - DARK GREY SECTION ========== -->
+		<div id="dg">
+			<div class="container">
+				<div class="row">
+					<h3>PROGRAMMING LANGUAGES</h3>
+					<br>
+					<br>
+					<div class="col-lg-4">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<br>
+						<h4><b>JAVASCRIPT</b></h4>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 75,
+										color:"#f85c37"
+									},
+									{
+										value : 25,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
 
-		html{
-			  background: url(background.jpg) no-repeat center center fixed;
-			  -webkit-background-size: cover;
-			  -moz-background-size: cover;
-			  -o-background-size: cover;
-			  background-size: cover;
-		}
-
-		body{
-			text-align:left;
-			color:#fff;
-			text-shadow: 1px 1px 10px #000;
-			font-family:arial, verdana;
-		}
-
-		h1{
-			font-size:4em;
-		}
-
-		h2{
-			font-size:2em;
-		}
-
-		#container{
-			margin:0 auto;
-			position:relative;
-			top:300px;
-			max-width:800px;
-		}
-
-        </style>
-    </head>
-    <body>
-		<div id="container">
-			<h1>COMING SOON</h1>
-			<h2>We are currently working on an awesome new site. Stay Tuned!</h2>
+					</div>
+					<div class="col-lg-4">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<br>
+						<h4><b>PHP</b></h4>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#f85c37"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-4">
+					<canvas id="wordpress" height="130" width="130"></canvas>
+					<br>
+					<h4><b>JAVA</b></h4>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 75,
+									color:"#f85c37"
+								},
+								{
+									value : 25,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			
+			</div>	
+		</div><!-- /container -->
+	</div><!-- /dg -->
+	
+	<section id="code" name="portfolio"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<h3>CODE REPOSITORIES</h3>
+				<br>
+				<br>
+				<div class="col-lg-6">
+					<a href="https://github.com/APEFOOD/simplevc">
+						<h4>SimpleVC - Convert Audio & Video Files Into Web Friendly Formats.</h4>
+						<i class="fa fa-code fa-4x"></i>
+					</a>
+				</div>
+				<div class="col-lg-6">
+					<a href="https://github.com/APEFOOD/maffmatics">
+						<h4>Maffmatics - A Mortgage Calculator With Some Cool Doughnut Charts (And Soon A Detailed Payment Schedule That Can Be Downloaded As A PDF)</h4>
+						<i class="fa fa-code fa-4x"></i>
+					</a>
+				</div>				
+			</div>	
+		</div><!-- /container -->
+	</div><!-- /portfoliowrap -->
+	
+	<!-- ========== ABOUT - GREY SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="g">
+	<div class="container">
+			<div class="row">
+				<h3>A Little ABOUT MYSELF</h3>
+				<br>
+				<br>
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<p>My name is Kabelo Nkakala. I am a web developer based in Johannesburg, South Africa. I love the internet, and back-end development is where I'm most comfortable.</p>
+				<br>
+				<br>
+			</div>
+			<div class="col-lg-4"></div>
+		</div> 
+	</div>
+	</div>
+	
+	<!-- ========== FOOTER SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+					<h3><b>Get In Touch With Me</b></h3>
+					<br>
+					<div class="col-lg-4">
+						<h3><b>Send Me A Message:</b></h3>
+						<h3>kabelonkakala20@gmail@.com</h3>
+						<br>
+					</div>
+					
+					<div class="col-lg-4">	
+						<h3><b>Call Us:</b></h3>
+						<h3>+27 XX XXX-XXXX</h3>
+						<br>
+					</div>
+					
+					<div class="col-lg-4">
+						<h3><b>I Am Social</b></h3>
+						<p>
+							<a href="https://twitter.com/APEFOOD"><i class="icon-twitter"></i></a>
+							<a href="https://twitter.com/LordKabelo"><i class="icon-twitter"></i></a>
+							<a href="kabelonkakala20@gmail.com"><i class="icon-envelope"></i></a>
+						</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Template by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+		
 		</div>
-    </body>
-</html>
+	</div>
+			
+				
+
+
+
+
+
+
+
+
+
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html> 
+				
+				
+				
