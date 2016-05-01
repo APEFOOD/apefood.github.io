@@ -114,6 +114,12 @@ a:after {
 	letter-spacing: 2px;
 }
 
+#headerwrap h3 {
+	color: white;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
 /* Portfolio Wrap */
 #portfoliowrap {
 	background: url(../img/portfolio-bg.jpg) no-repeat center top;
